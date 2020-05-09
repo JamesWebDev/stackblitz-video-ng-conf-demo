@@ -4,3 +4,7 @@
 </p> -->
 
 <app-camera></app-camera>
+
+<div>{{message}}</div>
+<input [value]="message" (input)="message = $event.target.value" />
+
