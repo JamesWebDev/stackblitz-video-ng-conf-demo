@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular 5';
-  message = 'Hello World2?'
-  myInput = 'something'
+  
 }
